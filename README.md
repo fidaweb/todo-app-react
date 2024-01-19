@@ -1,3 +1,8 @@
+#You can find the deployed website in https://fidaweb.github.io/todo-app-react/
+The project is mainly focused on implementing react and redux rather than styling.
+View the website with desktop for optimal user experience.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
