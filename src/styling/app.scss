@@ -1,0 +1,171 @@
+
+ 
+ .container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+.bottomMenu button{
+  cursor: pointer;
+}
+.bottomMenu button:hover{
+  // background-color: blue;
+  
+  font-weight: 600;
+}
+.bottomMenuDark button{
+  color: azure; 
+  cursor: pointer;
+}
+.bottomMenuDark button:hover{
+  // background-color: blue; 
+  
+  font-weight: 600;
+}
+.bottomMenuDark div{
+  color: whitesmoke;
+}
+ .head-container{
+    position: relative;
+    background: url(../../public/bg-desktop-light.jpg) no-repeat top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    align-items: center;
+    min-width: 100vw;
+ }
+ .head-container-dark{
+   position: relative;
+   background: url(../../public/bg-desktop-dark.jpg) no-repeat top center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   min-height: 40vh;
+   align-items: center;
+   min-width: 100vw;
+}
+
+ .display{
+    width: 34vw;
+    border-radius: 20px;
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    
+   
+   top:60px;
+    
+   //  background-color: pink;
+ }
+
+ .title{
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+   //  background-color: yellow;
+ }
+ .titletext .h1{
+    font-family:'Josefin Sans' ;
+    letter-spacing: 1rem;
+ }
+
+ .theme{
+    background: url(../../public/icon-moon.svg) no-repeat center ;
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+ }
+
+ .bottomMenu{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+   padding: 0.5rem;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+ .bottomMenu button{
+   border: none;
+ }
+
+ .todoList{
+   width:100%;
+   // background-color: orangered;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+  
+ }
+ ul li:first-child {
+   /* Styles for the first child of the <ul> */
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ }
+ button{
+   background-color: white;
+   border: none;
+ }
+ .instruction{
+  background-color: hsl(0, 0%, 98%) ;
+  width: 100%;
+  // border-bottom-left-radius: 10px;
+  // border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  padding:0.5rem;
+}
+.bottomMenuDark{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: hsl(237, 14%, 26%);
+   padding: 0.5rem;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;  
+}
+.bottomMenuDark button{
+   border: none;
+   background-color: hsl(237, 14%, 26%);
+ }
+
+ .themeDark{
+  background: url(../../public/icon-sun.svg) no-repeat center ;
+  background-size: cover;
+  height: 28px;
+  width: 28px;
+ }
+.instructionDark{
+  background-color:black ;
+  width: 100%;
+  // border-bottom-left-radius: 10px;
+  // border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  text-align: center;
+  padding:0.5rem;
+}
+
+

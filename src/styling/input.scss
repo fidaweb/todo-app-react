@@ -1,0 +1,58 @@
+.TodoInput{
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // padding-top: 0.5rem;
+    // padding-bottom: 0.5rem;
+    // width: 100%;
+    // background-color: purple;
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color:white;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    
+}
+.completed{
+    background: url(../../public/icon-check.svg) center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white;
+}
+.delete{
+    background: url(../../public/icon-cross.svg) center;
+    background-size: contain;
+    background-color: white;
+    width: 28px;
+    height: 28px;
+}
+.task{
+    // width: 100%;
+    background-color:white;
+    border: none;
+}
+.TodoInputDark{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color:hsl(237, 14%, 26%);
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+.addDark{
+    background-color:hsl(237, 14%, 26%);
+    color: white;
+    cursor: pointer;
+}
+.taskDark{
+    background-color:hsl(237, 14%, 26%);
+    border: none; 
+}

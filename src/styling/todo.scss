@@ -1,0 +1,113 @@
+.Todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color: white;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-top:1px solid #e8dcdc;
+    border-bottom:1px solid #e8dcdc;
+    border-width: 0.5px;
+    cursor: grab;
+}
+.notCompleted{
+    background: url(../../public/icon-check.svg) center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white;
+    border: 1px solid #000;
+}
+.delete{
+    background: url(../../public/icon-cross.svg) center;
+    background-size: contain;
+    background-color:white;
+    width: 10px;
+    height: 10px;
+    border: none;
+}
+.task{
+    width: 100%;
+    background-color:white;
+    text-align: left;
+}
+.completedTask{
+    width: 100%;
+    background-color: white;
+    text-decoration: line-through;
+    text-align: left;
+    opacity: 0.3;
+}
+.completed{
+    background: url(../../public/icon-check.svg) center/10% 10% no-repeat,
+    linear-gradient(to bottom, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #585656;
+     
+}
+
+.TodoDark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color:hsl(237, 14%, 26%);
+    gap: 0.5rem;
+    padding: 0.5rem;  
+    border-top:0.2rem solid hsl(221, 14%, 22%);
+    border-bottom:0.2px solid hsl(221, 14%, 22%);
+    cursor: grab;
+    border-width: 0.2px;
+}
+
+.completedDark{
+    background: url(../../public/icon-check.svg) center/10% 10% no-repeat,
+    linear-gradient(to bottom, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000; 
+}
+.notCompletedDark{
+    
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:hsl(237, 14%, 26%);
+    border: 1px solid #000;
+}
+.completedTaskDark{
+    width: 100%;
+    background-color: hsl(237, 14%, 26%);
+    text-decoration: line-through;
+    text-align: left;
+    color: white;
+    opacity: 0.3;
+   
+}
+.taskDark{
+    width: 100%;
+    background-color: hsl(237, 14%, 26%);
+    text-align: left;
+   color: white;
+    // font-weight: 700;
+
+}
+.deleteDark{
+    background: url(../../public/icon-cross.svg) center;
+    background-size: contain;
+    background-color:hsl(237, 14%, 26%);
+   
+    width: 10px;
+    height: 10px;
+    border: none;
+    // filter: brightness(120%);
+   
+}
